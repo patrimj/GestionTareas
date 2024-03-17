@@ -1,5 +1,5 @@
 const mysql = require('mysql2');
-const Conexion = require('./ConexionSequelize');
+const Conexion = require('./ConexionSequelize.js');
 const { Sequelize, Op } = require('sequelize'); // Op es para los operadores de sequelize
 const models = require('../models/index.js'); //Esto tiene acceso a todos los modelos., lo genera solo el sequelize-cli
 
